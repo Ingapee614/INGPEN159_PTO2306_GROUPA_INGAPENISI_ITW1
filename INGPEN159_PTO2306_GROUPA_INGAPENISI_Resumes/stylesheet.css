@@ -1,0 +1,25 @@
+ /* ---- body ----- */
+body{
+    background-color:whitesmoke;
+    border:2px solid black; 
+    margin: 50px ;
+    padding: 40px;}
+    
+    
+    /* ---- header ----- */
+
+#header {
+    
+    background-color:grey;
+    color: whitesmoke;
+    padding: 2rem;
+    padding-bottom: 4rem;
+    height: 100vh;
+    font-size:large;
+} 
+/* ---- Headings----- */
+
+h1{color: white;
+   text-align: center;}
+h3{color: white;
+text-align: center;}
