@@ -1,0 +1,60 @@
+
+
+/* ---- body ----- */
+body{
+    background-color:whitesmoke;
+    border:2px solid black; 
+    margin: 50px ;
+    padding:50px;}
+    
+    
+    /* ---- header ----- */
+
+#header {
+    
+    background-color:grey;
+    color: whitesmoke;
+    padding:2rem;
+    padding-bottom: 4rem;
+    height: 100vh;
+    font-size:large;
+} 
+/* ---- Headings----- */
+
+h1{color: white;
+   text-align: center;}
+h3{color: white;
+text-align: center;
+
+}
+
+#navbar { 
+    text-align:left;
+    text-justify: auto;
+}
+.nav-link {
+    text-decoration: none;
+    color:darkblue;
+    margin:10px;
+} 
+/**center image----- */
+#profile-image {
+    border-radius: 50%;
+    width: 350px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+    width: 40px;
+    
+} 
+/* ---- Content ----- */
+section{background-color:whitesmoke;
+    margin: 20px ;
+    padding: 50px;}
+    
+    h2{border-style:double;
+        border-width: 10 px;
+        border-radius: 50 px;}
+
+
+
