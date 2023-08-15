@@ -1,0 +1,20 @@
+/*animation for profile image*/
+
+@keyframes frame {
+    0% {border-color:lightgreen}
+    50%{border-color: bisque;border-radius:20px;}
+    100%{border-color:pink;border-radius: 70px;}
+
+}
+.frame {
+    width: 50px;
+    height: 50px;
+    border: 20px solid;
+    border-radius: 50px;
+    animation-name:frame;
+    animation-duration: 4s;
+    position: relative;
+    z-index: 1;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;}
