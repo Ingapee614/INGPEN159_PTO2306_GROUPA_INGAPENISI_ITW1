@@ -1,110 +1,89 @@
-/* ---- General ---- */
+/* ---- body ----- */
+body{
+    background-color:whitesmoke;
+    font-family: 'Courier New', Courier, monospace; 
+    margin: 1px ;
+    padding:50px;}
 
-body {
-    background-color:lightgray;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin:0;
-    
-
-}
-
-#back-to-top {position: fixed;
-    bottom: 80px;
-    right: 80px;
-    width: auto;
-}
-
-  #back-to-top > button{
-    background-color: red;
-    border-radius: 50%;
-    border: solid 1px rgb(198, 156, 78);
-    width: 50px;
-    height: 50px;
-}
-#back-to-top:hover > button {
-    border: solid 1px rgb(198, 156, 78);
-    background-color: white;
-    
-}
-
-#back-to-top:hover > button {
-    text-decoration: none;
-    color: red;}
-
-
-button:hover {
-        background-color: red;
-        text-decoration: none;
+    #back-to-top {
+        position: fixed;
+        bottom: 80px;
+        right:80px;
+        width: auto;
     }
-       
+    #back-to-top > button{
+        background-color: lightgray;
+        border-radius: 50%;
+        border: solid 1px rgb(198, 156, 78);
+        width: 50px;
+        height: 50px;
+    }
+    #back-to-top:hover > button {
+        border: solid 1px rgb(198, 156, 78);
+        background-color: white;
+        
+    }
+    
+    #back-to-top:hover > button {
+        text-decoration: none;
+        color:whitesmoke;}
+    
+    
+    button:hover {
+            background-color: wheat;
+            text-decoration: none;
+        }
 
-#navbar { position:relative;
-    top: 0;
-    text-align: center;
-    z-index: 1;  
 
+/* ---- Headings----- */
+
+h1{color: black;
+   text-align: center;}
+h3{color: black;
+text-align: center;
+
+}
+
+#navbar { 
+    text-align:left;
+    text-justify: auto;
 }
 .nav-link {
     text-decoration: none;
     color:darkblue;
-    margin: 0 4vw;
-}
-
-.nav-link:hover {
-    color: rgb(219, 191, 63);
-    text-decoration: none;
-}
-
-
-
-#topview {display: flex;
-    justify-content: space-around;
-    background-color:grey;
-    color: whitesmoke;
-    padding: 2rem;
-    padding-bottom: 4rem;
-    height: 35vh;
-}
-.header {
-    padding: 3rem;
-}
-
-#profile-image {
+    margin:10px;
+} 
+/**center image----- */
+#laptopImage {
     border-radius: 50%;
-    width:300px;
-    height: 300px;
-    position: relative;
-    top: 0px;
-    left: 10px;
-}
-
+    width: 350px;
+    height: 350px;
+    display: block;
+    margin: 0 auto;
     
-    /* ---- Content ----- */
-    section{background-color:darkgray;
-        margin: 50px ;
-        padding: 50px;}
-
     
-        
-    h2{border-style:double;
+} 
+/* ---- Content ----- */
+section{background-color:whitesmoke;
+    margin: 20px ;
+    padding: 50px;}
+    
+    h2{border-style:solid;
         border-width: 10 px;
         border-radius: 50 px;}
 
-    footer{background-color:gray;
-        display: flex;
-         margin: 50px ;
-         padding: 100px;
-        color: whitesmoke;
-        padding: 2rem;}
-        h5{font-size: x-large;}
-    
+        h3{text-align: center;}
+        
+    footer{background-color:lightgrey;
+            display:-moz-box;           
+             margin: 20px ;
+             padding: 30px;;
+            color: black}
+            
+            h5{font-size: x-large;}
+            
+
+        
 
 
-    
-    
-    
-
-    
-    
-    
-    
+        
