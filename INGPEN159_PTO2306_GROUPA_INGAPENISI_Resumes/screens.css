@@ -10,7 +10,25 @@ header{
     font-size:large;
 }
 
-
+@media only screen and (max-width:650px) {
+    body{ 
+        font-size: 8px;
+        padding: auto;
+        background-color:peachpuff;
+        
+    }}
+  
+@media only screen  and (max-width:1000px){
+body{ 
+    font-size: 15px;
+    padding:auto;
+    background-color:gray;
+}  }
+@media only screen  and (min-width:1000px) {
+body{ 
+    font-size: 18px;
+    padding: auto;
+    background-color:white}}
 
 
 
